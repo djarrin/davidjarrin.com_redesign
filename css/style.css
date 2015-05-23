@@ -1,5 +1,9 @@
+.navbar {
+  margin-bottom: 0px; }
+
 p {
-  font-family: 'Libre Baskerville', serif; }
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.0em; }
 
 footer {
   text-align: center;
@@ -13,6 +17,9 @@ footer {
 nav {
   box-shadow: 0px 10px 15px #6C6C6C !important; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif; }
+
 header {
   text-align: center; }
 
@@ -24,17 +31,5 @@ header {
 
 .fancybox-nav {
   width: 10% !important; }
-
-.navbar {
-  margin-bottom: 0px; }
-
-#home p {
-  font-size: 2.0em; }
-
-#header_photo {
-  margin: 0 0 40px 0;
-  box-shadow: 0px 10px 15px #6C6C6C; }
-  #header_photo img {
-    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
