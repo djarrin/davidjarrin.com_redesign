@@ -22,6 +22,9 @@ header {
 #about {
   font-size: 2.0em; }
 
+.fancybox-nav {
+  width: 10% !important; }
+
 .navbar {
   margin-bottom: 0px; }
 

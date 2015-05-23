@@ -31,28 +31,14 @@
 
     <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
     <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    
+    <!--parameters for fancy box-->
+    <script src="js/fancybox-params.js"></script>
 
 </head>
 <body>
-<script>
-$(document).ready(function() {
 
-    	$(".various").fancybox({
-		maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'elastic',
-		closeEffect	: 'fade',
-        mouseWheel  : false
-         
-        
-	});
-});
-</script>
+
     <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -87,7 +73,7 @@ $(document).ready(function() {
     </nav>
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a href="mywork.html#skills">Skills I Have Aquired</a></h2>
+            <h2><a name="skills">Skills I Have Aquired</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
@@ -104,7 +90,7 @@ $(document).ready(function() {
 
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a href="mywork.html#experience">Work Experience</a></h2>
+            <h2><a name="experience">Work Experience</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
@@ -122,7 +108,7 @@ $(document).ready(function() {
 
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a href="mywork.html#experience">Portfolio</a></h2>
+            <h2><a name="works">Portfolio</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
