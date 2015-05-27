@@ -1,5 +1,9 @@
+.navbar {
+  margin-bottom: 0px; }
+
 p {
-  font-family: 'Libre Baskerville', serif; }
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.0em; }
 
 footer {
   text-align: center;
@@ -13,20 +17,39 @@ footer {
 nav {
   box-shadow: 0px 10px 15px #6C6C6C !important; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif; }
+
 header {
   text-align: center; }
 
-#about_photo img {
-  width: 100%; }
+img {
+  width: 20%;
+  float: left;
+  margin: 0 15px 0 0;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px; }
 
 #about {
   font-size: 2.0em; }
 
+.davids-facts h2 {
+  text-align: center; }
+.davids-facts h3 {
+  text-align: center; }
+.davids-facts p {
+  text-align: center; }
+.davids-facts p:nth-child(8) {
+  text-align: left; }
+
+@media (max-width: 800px) {
+  img {
+    float: none;
+    width: 80%;
+    margin: auto; } }
 .fancybox-nav {
   width: 10% !important; }
-
-.navbar {
-  margin-bottom: 0px; }
 
 #home p {
   font-size: 2.0em; }
