@@ -1,20 +1,11 @@
-var URL = window.location.href;
-var baseURL = window.location.protocol+'//'+window.location.host+window.location.pathname;
+$(window).on("load", function () {
+     urlHash = window.location.href.split("#")[1];  /*will scoll to external links*/
+    $('html,body').animate({
+        scrollTop: $('.' + urlHash).offset().top-60
+    }, 1000);
 
-function goToTop (URL) {
-switch(URL) {
-    case baseURL+'#skills':
-        scrollTo(0, 0);
-        console.log('you are on skills');       
-        break;
-    case baseURL+'#experience':
-        scrollTo(0, 0);
-        console.log('you are on expereince');       
-        break;
-    case baseURL+'#works':
-        scrollTo(0, 0);
-        console.log('you are on works');        
-        break;
-}
-}
+    document.getElementsByClassName("skills").setAttribute('name', 'skills');
+    document.getElementsByClassName("experience").setAttribute('name', 'experience');
+    document.getElementsByClassName("works").setAttribute('name', 'works');    
+});
 

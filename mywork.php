@@ -44,7 +44,7 @@ include($includes_path . "header.php");
 
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a name="skills">Skills I Have Aquired</a></h2>
+            <h2><a class="skills">Skills I Have Aquired</a></h2>
             <hr />
         </div>
 
@@ -62,7 +62,7 @@ include($includes_path . "header.php");
 
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a name="experience">Work Experience</a></h2>
+            <h2><a class="experience">Work Experience</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
@@ -80,7 +80,7 @@ include($includes_path . "header.php");
 
     <div class="row">
         <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
-            <h2><a name="works">Portfolio</a></h2>
+            <h2><a class="works">Portfolio</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
