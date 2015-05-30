@@ -6,15 +6,11 @@
     <meta charset="utf-8" />
     <title>davidjarrin.com - where you go so the world can see you</title>
     
-    <!--start of bootstrap scripts-->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.js"></script>    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>   
-    <script src="/js/bootstrap.min.js"></script>
-    <!--end of bootstraps scripts-->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!--favcon links-->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <?php 
+    $includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
+    include($includes_path . "normalLinks.php");
+    ?>
+
 
 </head>
 <body>
