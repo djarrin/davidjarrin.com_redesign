@@ -1,11 +1,18 @@
 $(window).on("load", function () {
-     urlHash = window.location.href.split("#")[1];  /*will scoll to external links*/
+     var urlHash = window.location.href.split("#")[1];  /*will scoll to external links*/
     $('html,body').animate({
         scrollTop: $('.' + urlHash).offset().top-60
-    }, 1000);
+    }, 800);
+   
+    $(".dropdown-menu li a").click(function() {   //scrolls to the correct spot when link is clicked on page
+        setTimeout(function(){   //need setTimeout because DOM hasnt had time to load to read the new URL
+            var newHash = window.location.href.split("#")[1];
+            console.log(newHash);
+            $('html,body').animate({
+                scrollTop: $('.' + newHash).offset().top-60
+            }, 800);        
+        });
+    });
 
-    document.getElementsByClassName("skills").setAttribute('name', 'skills');
-    document.getElementsByClassName("experience").setAttribute('name', 'experience');
-    document.getElementsByClassName("works").setAttribute('name', 'works');    
 });
 
