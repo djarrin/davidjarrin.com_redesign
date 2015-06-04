@@ -2,7 +2,7 @@ header {
     text-align: center;
 }
 
-img {
+.about_photo {
     width: 20%;
     float: left;
     margin: 0 15px 0 0;
@@ -31,7 +31,7 @@ img {
 }
 
 @media (max-width: 800px) {
-img {
+.about_photo {
     float: none;
     width: 80%;
     margin: auto;

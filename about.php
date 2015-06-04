@@ -28,7 +28,7 @@ include($includes_path . "header.php");
     </div>
     <div class="row">
         <div class="col-xs-10 col-md-10 col-lg-10 col-xs-offset-1 col-md-offset-1">
-                <img src="images/david_jarrin.jpg" class="img-responsive" alt="David Jarrin"/>
+                <img src="images/david_jarrin.jpg" class="img-responsive about_photo" alt="David Jarrin"/>
                 <p>I am from…well I am from San Antonio Texas, Bowie Maryland, Sierra Vista Arizona and back 
                     to Maryland (I am currently living in Baltimore Maryland). As a kid I moved around a lot and 
                     have seen many different landscapes and met people from all over the country with a variety of 
