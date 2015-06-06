@@ -41,12 +41,12 @@ include( "header.php");
 ?>
 
     <div class="row">
-        <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
+        <div class="col-xs-10 col-md-4 col-xs-offset-2 col-md-offset-8">
             <h2><a class="skills">Skills I Have Aquired</a></h2>
             <hr />
         </div>
 
-        <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
+        <div class="col-xs-10 col-lg-10 col-xs-offset-1 col-lg-offset-1">
             <p>While I have been working in the web industry I have had an opportunity to learn so much both in my job and independently. My educational experience is in physics but have found a home in the web industry due to the exciting fact that the landscape is constantly changing and the learning never slows down and never stops. </p> 
 
             <h3>HTML/CSS</h3>
@@ -76,11 +76,11 @@ include( "header.php");
     </div>
 
     <div class="row">
-        <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
+        <div class="col-xs-10 col-md-4 col-xs-offset-2 col-md-offset-8">
             <h2><a class="experience">Work Experience</a></h2>
             <hr />
         </div>
-        <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
+        <div class="col-xs-10 col-lg-10 col-xs-offset-1 col-lg-offset-1">
              <p>After graduating from the University of Maryland with a B.S. in physics I worked for the MTA of Baltimore for around a year and a half. There I picked up some real life data analytics skills along with some of my first experience working in an office environment.</p> 
             
              <p>Although I enjoyed my time at the MTA I decided I would like to make a change to the constantly evolving field of web development. I was lucky enough to find a position at Money Map Press (an affiliate of Agora Inc.) located in Baltimore. Here I have had extensive experience using and creating responsive email templates that will function correctly in any email client, gaining familiarity with the wordpress admin area and creating responsive Order Forms.</p>
@@ -92,13 +92,13 @@ include( "header.php");
 
 
     <div class="row">
-        <div class="col-xs-4 col-md-4 col-xs-offset-8 col-md-offset-8">
+        <div class="col-xs-10 col-md-4 col-xs-offset-2 col-md-offset-8">
             <h2><a class="works">Portfolio</a></h2>
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
             <div class="row">
-                <div class="col-xs-4 col-md-4">
+                <div class="col-xs-10 col-md-4">
                     <h2>Cornerstonebookkeeping.biz</h2>
                     <hr />
                 </div>

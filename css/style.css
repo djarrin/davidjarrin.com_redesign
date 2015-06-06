@@ -57,7 +57,12 @@ header {
     width: 80%;
     margin: auto; } }
 .contact-content {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-bottom: 55px; }
+
+.bottom-push {
+  /*pushes nav bar down on mobile*/
+  height: 100px; }
 
 .fancybox-nav {
   width: 10% !important; }

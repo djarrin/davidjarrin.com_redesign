@@ -26,11 +26,8 @@ include("header.php");
             <p>Email: <a href="mailto:dmjarrin@gmail.com">dmjarrin@gmail.com</a> <br> Phone: (410) 504-7209</p>        
         
         </div>     
-    
-    
-    
     </div>
-
+<div class="bottom-push"></div>
 
 
 

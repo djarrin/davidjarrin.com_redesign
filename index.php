@@ -26,7 +26,7 @@ include("header.php");
     </div>
 
     <div class="row">
-        <div class="col-lg-8 col-md-8 col-xs-12 col-lg-offset-2 col-md-offset-2" id="home">
+        <div class="col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3" id="home">
             <p><strong>Form</strong>- bring together parts or combine to create.<br>
                 <strong>Function</strong>- work or operate in a proper or particular way.</p>
             

@@ -12,3 +12,5 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> <!--favcon links-->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
