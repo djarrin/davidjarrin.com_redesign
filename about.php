@@ -56,8 +56,7 @@ include("header.php");
     </div>
 
 <?php 
-$includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-include($includes_path . "footer.php");
+include("footer.php");
 ?>
 </body>
 </html>

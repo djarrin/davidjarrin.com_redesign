@@ -36,8 +36,7 @@ include("header.php");
 
 
 <?php 
-$includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-include($includes_path . "footer-lc.php");
+include("footer-lc.php");
 ?>
 </body>
 </html>
