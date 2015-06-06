@@ -2,13 +2,12 @@
 
 <html lang="en">
 <head>
- 
+ <?php set_include_path( get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'] ); ?>
     <meta charset="utf-8" />
     <title>davidjarrin.com - where you go so the world can see you</title>
     
     <?php 
-    $includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-    include($includes_path . "normalLinks.php");
+    include("normalLinks.php");
     ?>
 
 
@@ -16,8 +15,7 @@
 <body>
 
 <?php 
-$includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-include($includes_path . "header.php");
+include("header.php");
 ?>
 
     <div class="row">

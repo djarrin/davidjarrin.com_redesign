@@ -5,10 +5,9 @@
  
     <meta charset="utf-8" />
     <title>davidjarrin.com - where you go so the world can see you</title>
-    
+  <?php set_include_path( get_include_path() . PATH_SEPARATOR . $_SERVER['DOCUMENT_ROOT'] ); ?>  
     <?php 
-    $includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-    include($includes_path . "normalLinks.php");
+    include("normalLinks.php");
     ?>
 
 
@@ -38,8 +37,7 @@
 
 
 <?php 
-$includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-include($includes_path . "header.php");
+include( "header.php");
 ?>
 
     <div class="row">
