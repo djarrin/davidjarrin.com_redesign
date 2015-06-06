@@ -49,13 +49,30 @@ include($includes_path . "header.php");
         </div>
 
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a odio nec est consequat sollicitudin. Morbi mollis finibus neque, vel condimentum est varius a. Quisque sit amet nibh semper, congue lacus id, ornare quam. Nullam vestibulum ex nec nibh maximus, eget tempus neque sollicitudin. Fusce consectetur risus odio, non malesuada sem facilisis eget. Duis et dolor eu nunc hendrerit eleifend at quis arcu. Sed sit amet bibendum turpis. In posuere dapibus sodales.</p> 
+            <p>While I have been working in the web industry I have had an opportunity to learn so much both in my job and independently. My educational experience is in physics but have found a home in the web industry due to the exciting fact that the landscape is constantly changing and the learning never slows down and never stops. </p> 
+
+            <h3>HTML/CSS</h3>
+
             
-             <p>Mauris at elementum nulla, id semper lectus. Aenean vitae efficitur nibh. In hac habitasse platea dictumst. Vestibulum a ipsum sit amet lacus venenatis vulputate id vel nulla. Nullam ac tincidunt tellus. Aenean dictum, enim eu suscipit convallis, massa ipsum rhoncus leo, et congue tortor ligula sit amet tellus. Proin et est faucibus, malesuada justo a, laoreet ligula. Donec diam sem, auctor quis efficitur eu, mattis eu libero.</p>
+             <p>I have worked with many of the common technologies within HTML and CSS:</p>
+             <ul class="skill-list">
+                <li>Regularly work with the bootstrap framework and grid layouts.</li>
+                <li>I prefer to use Sass for all of my styling.</li>
+                <li>Experience (using these technologies) building fully responsive web applications across many browsers, trying to account for even the oldest versions of IE.</li>
+             </ul>
 
-            <p>Nullam semper feugiat ligula in posuere. Curabitur aliquam nisl non dignissim sollicitudin. Etiam id metus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum tempus felis, efficitur volutpat nunc imperdiet id. Suspendisse sagittis feugiat maximus. Vivamus a erat euismod elit auctor convallis. Suspendisse potenti. Aliquam tincidunt massa non nisl commodo, ut interdum mi bibendum. In hac habitasse platea dictumst.</p>
+             <h3>Scripting Languages</h3>
+             <ul class="skill-list">
+                <li>I have experience using javascript within and outside of the jQuery framework.</li>
+             </ul>
 
-            <p> Nulla blandit pulvinar pellentesque. Phasellus convallis risus in ex fringilla fringilla. Duis dictum vitae erat ornare placerat. Donec ante sapien, imperdiet a cursus in, consectetur quis quam.</p>
+             <h3>Server Side Languages</h3>
+             <ul class="skill-list">
+                <li>While building sharkysbarandgrill.com which is a wordpress site, I have come into contact with some PHP (along with a little bit on this site).</li>
+                <li>I am currently working with Ruby and more over RoR.</li>
+             </ul>
+
+
               
         </div>
     </div>
@@ -66,13 +83,11 @@ include($includes_path . "header.php");
             <hr />
         </div>
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a odio nec est consequat sollicitudin. Morbi mollis finibus neque, vel condimentum est varius a. Quisque sit amet nibh semper, congue lacus id, ornare quam. Nullam vestibulum ex nec nibh maximus, eget tempus neque sollicitudin. Fusce consectetur risus odio, non malesuada sem facilisis eget. Duis et dolor eu nunc hendrerit eleifend at quis arcu. Sed sit amet bibendum turpis. In posuere dapibus sodales.</p> 
+             <p>After graduating from the University of Maryland with a B.S. in physics I worked for the MTA of Baltimore for around a year and a half. There I picked up some real life data analytics skills along with some of my first experience working in an office environment.</p> 
             
-             <p>Mauris at elementum nulla, id semper lectus. Aenean vitae efficitur nibh. In hac habitasse platea dictumst. Vestibulum a ipsum sit amet lacus venenatis vulputate id vel nulla. Nullam ac tincidunt tellus. Aenean dictum, enim eu suscipit convallis, massa ipsum rhoncus leo, et congue tortor ligula sit amet tellus. Proin et est faucibus, malesuada justo a, laoreet ligula. Donec diam sem, auctor quis efficitur eu, mattis eu libero.</p>
+             <p>Although I enjoyed my time at the MTA I decided I would like to make a change to the constantly evolving field of web development. I was lucky enough to find a position at Money Map Press (an affiliate of Agora Inc.) located in Baltimore. Here I have had extensive experience using and creating responsive email templates that will function correctly in any email client, gaining familiarity with the wordpress admin area and creating responsive Order Forms.</p>
 
-            <p>Nullam semper feugiat ligula in posuere. Curabitur aliquam nisl non dignissim sollicitudin. Etiam id metus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum tempus felis, efficitur volutpat nunc imperdiet id. Suspendisse sagittis feugiat maximus. Vivamus a erat euismod elit auctor convallis. Suspendisse potenti. Aliquam tincidunt massa non nisl commodo, ut interdum mi bibendum. In hac habitasse platea dictumst.</p>
 
-            <p> Nulla blandit pulvinar pellentesque. Phasellus convallis risus in ex fringilla fringilla. Duis dictum vitae erat ornare placerat. Donec ante sapien, imperdiet a cursus in, consectetur quis quam.</p>
 
         </div>
     </div>
@@ -96,7 +111,7 @@ include($includes_path . "header.php");
                </a>
             </div>
             <div class="col-sm-10 col-md-7">
-            <p>Nullam semper feugiat ligula in posuere. Curabitur aliquam nisl non dignissim sollicitudin. Etiam id metus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum tempus felis, efficitur volutpat nunc imperdiet id. Suspendisse sagittis feugiat maximus. Vivamus a erat euismod elit auctor convallis. Suspendisse potenti. Aliquam tincidunt massa non nisl commodo, ut interdum mi bibendum. In hac habitasse platea dictumst.</p>       
+            <p>This was the very first website I ever built and holds sentimental value to me. Here was my first experience creating a responsive static website, using HTML/CSS along with some media queries. This site represents some of my first efforts to gain some basic knowledge needed to get a site up and running.</p>       
             
             </div>
         
@@ -105,17 +120,17 @@ include($includes_path . "header.php");
         <div class="col-sm-10 col-md-10 col-sm-offset-1 col-md-offset-1">
             <div class="row">
                 <div class="col-xs-4 col-md-4">
-                    <h2>sharkysbarandgrill.com</h2>
+                    <h2>Sharkysbarandgrill.com</h2>
                     <hr />
                 </div>
             </div>
             <div class="col-sm-10 col-md-3">
               <a class="various fancybox.iframe" rel="gallery1" href="http://www.sharkysbarandgrill.com" title="sharkysbarandgrill.com">
-                <img style="width: 100%;"src="images/cornerstonebookkeeping.png" alt="cornerstone bookkeeping photo"/>
+                <img style="width: 100%;"src="images/sharkysbarandgrill-screen-shot.jpg" alt="cornerstone bookkeeping photo"/>
               </a>
             </div>
             <div class="col-sm-10 col-md-7">
-            <p>Nullam semper feugiat ligula in posuere. Curabitur aliquam nisl non dignissim sollicitudin. Etiam id metus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum tempus felis, efficitur volutpat nunc imperdiet id. Suspendisse sagittis feugiat maximus. Vivamus a erat euismod elit auctor convallis. Suspendisse potenti. Aliquam tincidunt massa non nisl commodo, ut interdum mi bibendum. In hac habitasse platea dictumst.</p>       
+            <p>This is a wordpress site I built for a bar in my community. This site demonstrates my ability to work with the wordpress CMS, thus showing off some of my basic knowledge of PHP as well. For this site I used the bootstrap framework along with Sass styling and jQuery scripting. </p>       
             
             </div>
         

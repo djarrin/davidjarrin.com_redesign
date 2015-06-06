@@ -1,3 +1,16 @@
 .fancybox-nav {
     width: 10% !important;
 }
+
+.skills:hover, .experience:hover, .works:hover {
+	text-decoration: none;
+}
+
+.skills, .experience, .works {
+	color: #333;
+}
+
+ul.skill-list > li{
+	font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+}

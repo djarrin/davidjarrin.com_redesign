@@ -21,7 +21,7 @@ include($includes_path . "header.php");
 ?>
 
     <div class="row">
-        <div class="col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3">
+        <div class="col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3 contact-content">
             <p>If you have any questions about my skills and abilities or would like to contract me out for 
                 your website please feel free to contact me with any of the below information</p>
 
@@ -39,7 +39,7 @@ include($includes_path . "header.php");
 
 <?php 
 $includes_path = "C:/davids-sites/davidjarrin_com-redesign/";
-include($includes_path . "footer.php");
+include($includes_path . "footer-lc.php");
 ?>
 </body>
 </html>

@@ -40,15 +40,15 @@ include($includes_path . "header.php");
                     at some far corner of the country.</p>
 
             <div class="davids-facts">
-                <h2>Davids Interesting facts</h2>
-                <h3>Interesting fact #42</h3>
-                <p>I have won three junior Olympic medals in table tennis</p>
+                <h2><u>Davids Interesting facts</u></h2>
+                <h3><em><strong>Interesting fact #42</strong><em></h3>
+                <p><em>I have won three junior Olympic medals in table tennis</em></p>
         
-                <h3>Interesting fact #78</h3>
-                <p>I used to in-line speed skate competitively when I was a kid</p>
+                <h3><strong><em>Interesting fact #78</em></strong></h3>
+                <p><em>I used to in-line speed skate competitively when I was a kid</em></p>
 
-                <h3>Interesting fact #22</h3>
-                <p>I have a large multi-color portrait of Einstein in my childhood room.</p>
+                <h3><strong><em>Interesting fact #22</em></strong></h3>
+                <p><em>I have a large multi-color portrait of Einstein in my childhood room.</em></p>
 
                 <p>.......for more interesting facts about me feel free to visit my contact page and I’ll try 
                     to dig up interesting fact #33 or #25......</p>
